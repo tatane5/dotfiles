@@ -1,0 +1,28 @@
+# Logs
+*.log
+
+# Cache
+.cache/
+*/cache/
+*/Cache/
+
+# Sessions
+*.session
+*.tmp
+
+# Secrets
+.env
+.env.local
+secrets*
+*.key
+*.pem
+
+# Sockets / runtime
+*.sock
+*.pid
+
+# Fish machine-specific file
+.config/fish/fish_variables
+
+# Thumbnails
+Thumbs.db

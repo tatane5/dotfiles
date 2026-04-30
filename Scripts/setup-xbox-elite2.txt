@@ -1,0 +1,23 @@
+# nécessite yay
+yay -S xpadneo-dkms
+
+# Appairage bluetooth :
+bluetoothctl
+
+
+power on
+agent on
+default-agent
+scan on
+pair XX:XX:XX:XX:XX:XX
+trust XX:XX:XX:XX:XX:XX
+connect XX:XX:XX:XX:XX:XX
+scan off
+exit
+
+
+
+
+# Après chaque mise à jour kernel
+sudo dkms autoinstall
+sudo reboot

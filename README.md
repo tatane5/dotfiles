@@ -1,4 +1,10 @@
-### Pousser les mises à jour sur github :
+
+
+### Dépôts git :
+#### Télécharger le dépôt :
+
+
+#### Pousser les mises à jour sur github :
 ```
 cd ~/dotfiles
 git status

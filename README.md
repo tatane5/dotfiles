@@ -1,8 +1,9 @@
 
 
 ### Dépôts git :
-#### Télécharger le dépôt :
-
+#### nouvelle installation :
+git clone https://github.com/tatane5/dotfiles.git ~/dotfiles
+cd ~/dotfiles
 
 #### Pousser les mises à jour sur github :
 ```

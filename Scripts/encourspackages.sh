@@ -53,3 +53,8 @@ sudo pacman -S --needed --noconfirm \
 # ===== FONTS =====
 sudo pacman -S --needed --noconfirm \
  ttf-jetbrains-mono-nerd
+
+ # ===== GRAPHISM MULTIMEDIA =====
+sudo pacman -S --needed --noconfirm \
+krita \
+vlc

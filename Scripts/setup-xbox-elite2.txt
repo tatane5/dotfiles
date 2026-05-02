@@ -15,7 +15,13 @@ connect XX:XX:XX:XX:XX:XX
 scan off
 exit
 
+# pour reconnaissance et utilisation dans steam
+echo uinput | sudo tee /etc/modules-load.d/uinput.conf
+echo 'KERNEL=="uinput", MODE="0660", GROUP="input", OPTIONS+="static_node=uinput"' | sudo tee /etc/udev/rules.d/99-steam-input.rules >/dev/null
 
+sudo usermod -aG input $tatane
+sudo udevadm control --reload-rules
+sudo udevadm trigger
 
 
 # Après chaque mise à jour kernel

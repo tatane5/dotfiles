@@ -1,12 +1,18 @@
+### Nouvelle installation :
+````
+sudo pacman -S git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+````
 
-
-### Dépôts git :
-#### nouvelle installation :
+#### Clone dotfiles
 ````
 git clone https://github.com/tatane5/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ````
-#### Pousser les mises à jour sur github :
+
+### Pousser les mises à jour sur github :
 ```
 cd ~/dotfiles
 git status

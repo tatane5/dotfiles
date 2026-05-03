@@ -34,6 +34,7 @@ sudo pacman -S --needed --noconfirm \
 
 # ===== OFFICE =====
 sudo pacman -S --needed --noconfirm \
+  evince \
   gedit \
   libreoffice-fresh \
   obsidian
@@ -56,5 +57,6 @@ sudo pacman -S --needed --noconfirm \
 
  # ===== GRAPHISM MULTIMEDIA =====
 sudo pacman -S --needed --noconfirm \
+eog \
 krita \
 vlc
